@@ -1,26 +1,26 @@
 const { app, BrowserWindow } = require('electron')
 const projectPath = `file://${__dirname}/`;
-let win;
+let window;
 
 function createWindow () 
 {
   // Create the browser window.
-	win = new BrowserWindow({
+	window = new BrowserWindow({
 		width: 1200, 
 		height: 800,
 		backgroundColor: '#FFFFFF',
 		icon: projectPath + `dist/assets/logo.png`
 	})
 	
-	win.loadURL(projectPath + `dist/index.html`)
+	window.loadURL(projectPath + `dist/index.html`)
 	
 	//// uncomment below to open the DevTools.
-	// win.webContents.openDevTools()
+	// window.webContents.openDevTools()
 	
 	// Event when the window is closed.
-	win.on('closed', function () 
+	window.on('closed', function () 
 	{
-		win = null
+		window = null
 	})
 }
 // Create window on electron intialization
@@ -37,7 +37,7 @@ app.on('window-all-closed', function ()
 app.on('activate', function () 
 {
 	// macOS specific close process
-	if (win === null) 
+	if (window === null) 
 	{
 		createWindow()
 	}
