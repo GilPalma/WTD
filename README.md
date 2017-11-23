@@ -1,5 +1,9 @@
 # WTD
 
+Warhammer Tabletop Database is a tool designed to help Warhammer 40k fans organize their collections.
+
+It's very early in its development as I'm currently adding the basic features.
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.4.9.
 
 ## Development server
@@ -21,6 +25,21 @@ Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.
 ## Running end-to-end tests
 
 Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+
+## Running Electron app
+
+Run `npm run electron` to run an existing build of the electron app.
+
+## Building + Running Electron app
+
+Run `npm run electron-build` to build and run the electron app.
+
+## Building + Running Electron app
+
+Run `npm run electron-packager` to build and package the electron app, resulting in an executable file.
+
+## Guide I used to get started
+https://angularfirebase.com/lessons/desktop-apps-with-electron-and-angular/
 
 ## Further help
 

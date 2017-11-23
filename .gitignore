@@ -4,6 +4,7 @@
 /dist
 /tmp
 /out-tsc
+/wtd-*
 
 # dependencies
 /node_modules
@@ -40,5 +41,3 @@ testem.log
 # System Files
 .DS_Store
 Thumbs.db
-
-wtd-win32-x64/

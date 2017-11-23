@@ -23,6 +23,7 @@ function createWindow ()
 		window = null
 	})
 }
+
 // Create window on electron intialization
 app.on('ready', createWindow)
 // Quit when all windows are closed.
@@ -34,6 +35,7 @@ app.on('window-all-closed', function ()
 		app.quit()
 	}
 })
+
 app.on('activate', function () 
 {
 	// macOS specific close process
