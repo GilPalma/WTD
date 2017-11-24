@@ -1,5 +1,5 @@
 {
-  "name": "wtd",
+  "name": "WTD",
   "version": "0.1.0",
   "license": "MIT",
   "main": "main.js",
@@ -27,6 +27,7 @@
     "@angular/router": "^4.2.4",
     "core-js": "^2.4.1",
     "rxjs": "^5.4.2",
+    "tedb": "^0.3.4",
     "zone.js": "^0.8.14"
   },
   "devDependencies": {
